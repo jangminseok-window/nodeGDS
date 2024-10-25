@@ -1,0 +1,12 @@
+{
+  "name": "gdsapi",
+  "version": "1.0.0",
+  "description": "****\r Nodejs 사용하여 항공 GDS  API 구축 사이트",
+  "main": "gdsApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
