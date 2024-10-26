@@ -34,5 +34,27 @@ text
     # 기타 설정들...
 </VirtualHost>
 
+****
+# Redis 설치 및 연동 
+
+이 가이드는 Apache 웹 서버와 Node.js 애플리케이션을 연동하는 방법을 설명합니다.
+
+## 1. Apache 모듈 활성화
+ 1.  설치 sudo apt install redis-server
+ 2.  Redis 서비스 시작:
+  sudo systemctl start redis-server
+  sudo systemctl restart redis-server
+ 3. redis 설치 확인:
+   redis-cli ping --> PONG 
+ 4.설정 수정 – 외부 접속 허용
+    sudo nano /etc/redis/redis.conf
+    bind 0.0.0.0
+ 5. 윈도우용 접속 tool - redis-insight
+   https://redis.io/redis-enterprise/redis-insight/
+   requirepass -----
+ 6. 프로그램 연동
+         User.js 파일 참고
+
+
 
 

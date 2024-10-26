@@ -1,0 +1,25 @@
+{
+    "mysql": {
+      "host": "localhost",
+      "user": "defaultUser",
+      "password": "defaultPassword",
+      "database" : "midstardb",
+       "secretkey" : "xxxxwkdalstjr"
+    },
+    "server": {
+      "port": 3002,
+      "sessionTimeout" :  60   
+    },
+    "logLevel": "debug",
+    "redis": {
+      "host": "localhost",
+      "user": "",
+      "password": "dlalwjd5",
+      "database" : ""
+    }
+
+    
+
+
+  }
+  
